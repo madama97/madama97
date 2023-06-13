@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>curso actividad 1</title>
+    <link rel="stylesheet" href="actividad1.css">
 </head>
 <body>
-    <h1>gola</h1>
+    
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <form>
+
+        <h2>Formulario</h2>
+    
+        <label for="text">Nombre Completo</label>
+        <input type="text" placeholder="nombre y apellido" id="name" required>
+             
+        <label for="email">Email</label>
+        <input type="email" placeholder="email" id="email" required>
+        
+        <label for="years">Edad</label>
+        <input type="number" placeholder="edad" id="years" required>   
+    
+        <h3>experiencia laboral</h3>
+        <textarea name="experiencia laboral" placeholder="cuentanos tus habilidades" id="cv" cols="30" rows="10"  required></textarea>
+        <button>enviar</button>
+    </form>    
 </body>
 </html>
